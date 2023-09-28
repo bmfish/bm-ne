@@ -26,7 +26,6 @@ public class WkContentLogController {
 
     @GetMapping("/add")
     public Long addlog(){
-
         return wkContentLogService.saveWkLog();
     }
 }
